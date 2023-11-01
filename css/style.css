@@ -408,7 +408,8 @@ Default: 9px
 }
 
 .plan-price {
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
+  font-family: "Kanit", sans-serif;
   font-size: 6.2rem;
   font-weight: 600;
   color: #333;
