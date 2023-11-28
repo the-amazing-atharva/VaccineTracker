@@ -40,6 +40,8 @@ Vaccine Schedule Links:
 
 13. https://nhmodisha.gov.in/writereaddata/Upload/Documents/document%20Vaccination%20program_1_.pdf
 
+14. https://www.cdc.gov/vaccines/schedules/easy-to-read/adolescent-easyread.html
+
 ### Summary
 
 -->
