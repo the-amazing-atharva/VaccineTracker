@@ -8,11 +8,19 @@
   color: #fff;
 }
 
+.hero1 {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/img/illustrations/backg/hero1.jpg);
+}
+
+.hero2 {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/img/illustrations/backg/hero2.jpg);
+}
+
 .vaccines-header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/img/illustrations/backg/hero1.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -71,4 +79,34 @@
   margin: 10px 0px 40px;
   font-size: 17px;
   color: #fff;
+}
+
+.button {
+  display: inline-block;
+  border: 3px solid #aaa;
+  cursor: pointer;
+
+  background-color: #087f5b;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 16px 32px;
+  font-size: 20px;
+  border-radius: 9px;
+
+  transition: all 0.3s;
+}
+
+.button-green {
+  background: #087f5b;
+  border-color: #087f5b;
+  color: #fff;
+}
+
+.button-green.button-outline {
+  background: none;
+}
+
+.button-green:hover {
+  background: #087f5b;
+  border-color: #087f5b;
 }
