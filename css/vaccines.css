@@ -23,6 +23,11 @@
     url(/img/illustrations/backg/hero3.jpg);
 }
 
+.hero4 {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/img/illustrations/backg/hero4.jpg);
+}
+
 .vaccines-header {
   min-height: 100vh;
   width: 100%;
@@ -103,7 +108,7 @@
 }
 
 .button-green {
-  background: #087f5b;
+  background: #e6fcf5;
   border-color: #087f5b;
   color: #fff;
 }
@@ -113,6 +118,7 @@
 }
 
 .button-green:hover {
-  background: #087f5b;
+  color: #000;
+  background: #e6fcf5;
   border-color: #087f5b;
 }
