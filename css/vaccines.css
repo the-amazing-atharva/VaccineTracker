@@ -123,6 +123,29 @@
   border-color: #087f5b;
 }
 
+/* VACCINE INFO */
+.step-number-info {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #ddd;
+  color: #087f5b91;
+
+  margin-bottom: 1.2rem;
+}
+
+.list-info {
+  margin-top: 3rem;
+}
+
+.step-img-info {
+  width: 100%;
+  border-radius: 2rem;
+  transition: all 0.4s;
+}
+.step-img-info:hover {
+  transform: scale(1.02);
+}
+
 /* TABLE SECTION */
 .section-table {
   padding: 9.6rem 0;
