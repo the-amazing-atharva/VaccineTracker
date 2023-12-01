@@ -15,17 +15,17 @@
 
 .hero2 {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/img/illustrations/backg/hero2.jpg);
+    url(../img/illustrations/backg/hero2.jpg);
 }
 
 .hero3 {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/img/illustrations/backg/hero3.jpg);
+    url(../img/illustrations/backg/hero3.jpg);
 }
 
 .hero4 {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/img/illustrations/backg/hero4.jpg);
+    url(../img/illustrations/backg/hero4.jpg);
 }
 
 .vaccines-header {
@@ -121,4 +121,40 @@
   color: #000;
   background: #e6fcf5;
   border-color: #087f5b;
+}
+
+/* TABLE SECTION */
+.section-table {
+  padding: 9.6rem 0;
+}
+
+table {
+  min-width: 120rem;
+  margin-bottom: 5rem;
+  font-size: 18px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+thead th {
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
 }
