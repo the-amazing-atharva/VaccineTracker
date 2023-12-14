@@ -124,6 +124,16 @@
 }
 
 /* VACCINE INFO */
+.section-atbirth {
+  padding: 4.8rem 0 9.6rem 0;
+}
+.section-sixweeks {
+  padding: 9.6rem 0;
+}
+
+.section-sixweeks {
+  background-color: #e6fcf5;
+}
 .step-number-info {
   font-size: 4.5rem;
   font-weight: 600;

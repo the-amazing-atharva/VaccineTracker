@@ -454,6 +454,7 @@ Default: 9px
 /* BLOG SECTION */
 /**************************/
 .section-blog {
+  background-color: #e6fcf5;
   padding: 9.6rem 0;
 }
 
@@ -462,6 +463,7 @@ Default: 9px
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+  background-color: #fff;
 }
 
 .blog:hover {
@@ -491,6 +493,7 @@ Default: 9px
 
 .str-blog {
   color: #087f5b;
+  font-weight: 700;
 }
 .blog-img {
   width: 100%;
@@ -500,6 +503,7 @@ Default: 9px
 /* FOOTER SECTION */
 /**************************/
 .footer {
+  background-color: #e6fcf5;
   padding: 12.8rem 0;
   border-top: 1px solid #d2d2d2;
 }
@@ -571,4 +575,34 @@ Default: 9px
 .footer-link:active {
   color: #555;
   font-weight: 700;
+}
+
+/* rejsg */
+/* FAQ SECTION */
+.section-faq {
+  padding: 9.6rem 0;
+  /* background-color: #e6fcf5; */
+}
+
+.faq-list {
+  margin-top: 4.8rem;
+}
+
+.faq-item {
+  margin-bottom: 3.2rem;
+}
+
+.faq-question {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #333;
+  color: #044e37;
+  margin-bottom: 1.6rem;
+}
+
+.faq-answer {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #555;
 }
