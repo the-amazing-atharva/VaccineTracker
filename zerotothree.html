@@ -254,6 +254,9 @@
               <th>Timing</th>
               <th>Route</th>
               <th>Site</th>
+              <th>Track</th>
+
+              <!-- Added a new column header for checkboxes -->
             </tr>
           </thead>
 
@@ -263,18 +266,21 @@
               <td>At Birth</td>
               <td>Intra-dermal</td>
               <td>Left Upper Arm</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>HEP B1</th>
               <td>At Birth</td>
               <td>Intra-muscular</td>
               <td>Mid Thigh</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>OPV-0</th>
               <td>At Birth</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <thead>
               <tr>
@@ -282,6 +288,9 @@
                 <th>Timing</th>
                 <th>Route</th>
                 <th>Site</th>
+                <th>Track</th>
+
+                <!-- Added a new column header for checkboxes -->
               </tr>
             </thead>
             <tr>
@@ -289,30 +298,35 @@
               <td>6 Weeks</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>Pentavalent-1</th>
               <td>6 Weeks</td>
               <td>Intra-muscular</td>
               <td>Mid Thigh</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>RVV-1</th>
               <td>6 Weeks</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>PCV-1</th>
               <td>6 Weeks</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>fIPV-1</th>
               <td>6 Weeks</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <thead>
               <tr>
@@ -320,6 +334,9 @@
                 <th>Timing</th>
                 <th>Route</th>
                 <th>Site</th>
+                <th>Track</th>
+
+                <!-- Added a new column header for checkboxes -->
               </tr>
             </thead>
             <tr>
@@ -327,18 +344,21 @@
               <td>10 Weeks</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>OPV-2</th>
               <td>10 Weeks</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>RVV-2</th>
               <td>10 Weeks</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <thead>
               <tr>
@@ -346,6 +366,9 @@
                 <th>Timing</th>
                 <th>Route</th>
                 <th>Site</th>
+                <th>Track</th>
+
+                <!-- Added a new column header for checkboxes -->
               </tr>
             </thead>
             <tr>
@@ -353,30 +376,35 @@
               <td>14 Weeks</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>OPV-3</th>
               <td>14 Weeks</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>RVV-3</th>
               <td>14 Weeks</td>
               <td>Oral</td>
               <td>Oral</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>PCV-2</th>
               <td>14 Weeks</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>fIPV-2</th>
               <td>14 Weeks</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <thead>
               <tr>
@@ -384,6 +412,9 @@
                 <th>Timing</th>
                 <th>Route</th>
                 <th>Site</th>
+                <th>Track</th>
+
+                <!-- Added a new column header for checkboxes -->
               </tr>
             </thead>
             <tr>
@@ -391,18 +422,21 @@
               <td>9-12 Months</td>
               <td>Sub-Cutaneous</td>
               <td>Right Upper Arm</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>JE-1</th>
               <td>9-12 Months</td>
               <td>Sub-Cutaneous</td>
               <td>Left Upper Arm</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
             <tr>
               <th>PCV-Booster</th>
               <td>9-12 Months</td>
               <td>Intra-muscular</td>
               <td>As Adviced</td>
+              <td><input type="checkbox" class="vaccine-checkbox" /></td>
             </tr>
           </tbody>
         </table>
@@ -503,5 +537,25 @@
         </nav>
       </div>
     </footer>
+
+    <!-- Localstorage for Checkbox -->
+    <script>
+      // JavaScript code to handle checkbox state and local storage
+      const checkboxes = document.querySelectorAll(".vaccine-checkbox");
+
+      checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener("change", function () {
+          const vaccineName = this.dataset.vaccine;
+          localStorage.setItem(vaccineName, this.checked);
+        });
+
+        const vaccineName = checkbox.dataset.vaccine;
+        const savedState = localStorage.getItem(vaccineName);
+
+        if (savedState && savedState === "true") {
+          checkbox.checked = true;
+        }
+      });
+    </script>
   </body>
 </html>

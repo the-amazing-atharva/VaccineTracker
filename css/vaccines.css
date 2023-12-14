@@ -181,3 +181,13 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
   background-color: #e9ecef;
 }
+
+/* CSS for checkbox styling */
+.vaccine-checkbox {
+  appearance: checkbox;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
