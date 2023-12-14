@@ -175,6 +175,11 @@ td {
   text-align: left;
 }
 
+tr:hover,
+th:hover {
+  scale: 1.005;
+}
+
 thead tr {
   background-color: #087f5b;
   color: #fff;
@@ -200,4 +205,8 @@ tbody tr:nth-child(even) {
   border: 2px solid #999;
   border-radius: 4px;
   cursor: pointer;
+}
+
+input[type="checkbox"] {
+  accent-color: #099268;
 }
