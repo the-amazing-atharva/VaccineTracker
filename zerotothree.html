@@ -809,25 +809,5 @@
         </nav>
       </div>
     </footer>
-
-    <!-- Localstorage for Checkbox -->
-    <script>
-      // JavaScript code to handle checkbox state and local storage
-      const checkboxes = document.querySelectorAll(".vaccine-checkbox");
-
-      checkboxes.forEach((checkbox) => {
-        checkbox.addEventListener("change", function () {
-          const vaccineName = this.dataset.vaccine;
-          localStorage.setItem(vaccineName, this.checked);
-        });
-
-        const vaccineName = checkbox.dataset.vaccine;
-        const savedState = localStorage.getItem(vaccineName);
-
-        if (savedState && savedState === "true") {
-          checkbox.checked = true;
-        }
-      });
-    </script>
   </body>
 </html>
