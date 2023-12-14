@@ -127,7 +127,8 @@
 .section-atbirth {
   padding: 4.8rem 0 9.6rem 0;
 }
-.section-sixweeks {
+.section-sixweeks,
+.section-tenweeks {
   padding: 9.6rem 0;
 }
 
@@ -158,6 +159,7 @@
 
 /* TABLE SECTION */
 .section-table {
+  border-top: 1px solid #d2d2d2;
   padding: 9.6rem 0;
 }
 
@@ -177,7 +179,7 @@ td {
 
 tr:hover,
 th:hover {
-  scale: 1.005;
+  scale: 1.004;
 }
 
 thead tr {
@@ -209,4 +211,8 @@ tbody tr:nth-child(even) {
 
 input[type="checkbox"] {
   accent-color: #099268;
+}
+
+.vfooter {
+  background-color: #fff;
 }
