@@ -236,6 +236,11 @@ Default: 9px
   margin-bottom: 1.6rem;
 }
 
+.statistics-icon:hover,
+.statistics-title:hover {
+  scale: 1.03;
+}
+
 .statistics-text {
   font-size: 1.8rem;
   line-height: 1.8;
