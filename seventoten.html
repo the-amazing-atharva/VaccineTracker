@@ -21,7 +21,7 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
-    <title>Vaccines for 7 to 10 Yrs</title>
+    <title>Vaccines for 9 to 24 Mnth</title>
   </head>
   <body>
     <section class="vaccines-header hero3">
@@ -39,16 +39,18 @@
       </nav>
 
       <div class="text-box">
-        <h1>Vaccination For <br />7 To 10 Years</h1>
+        <h1>Vaccination For <br />9 To 24 Months</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
           neque laudantium iusto quae corporis alias.
         </p>
-        <a href="#" class="btn btn--full margin-right-sm">Check Vaccines</a>
+        <a href="#vaccine-table" class="btn btn--full margin-right-sm"
+          >Check Vaccines</a
+        >
         <!-- <a href="#" class="btn btn--outline">Learn more &darr;</a> -->
         <a href="#"
           ><button class="button button-green button-outline">
-            Learn More
+            Learn More &darr;
           </button></a
         >
       </div>
@@ -87,6 +89,50 @@
             alt=""
           />
         </div>
+      </div>
+    </section>
+
+    <section class="section-table" id="vaccine-table">
+      <div class="container">
+        <div class="container center-text">
+          <span class="subheading">Tracker</span>
+          <h2 class="heading-secondary">Summary Of Vaccines On This Page</h2>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Vaccine</th>
+              <th>Timing</th>
+              <th>Route</th>
+              <th>Site</th>
+              <th>Track</th>
+
+              <!-- Added a new column header for checkboxes -->
+            </tr>
+          </thead>
+          <tr>
+            <th>MR-1</th>
+            <td>9-12 Months</td>
+            <td>Sub-Cutaneous</td>
+            <td>Right Upper Arm</td>
+            <td><input type="checkbox" class="vaccine-checkbox" /></td>
+          </tr>
+          <tr>
+            <th>JE-1</th>
+            <td>9-12 Months</td>
+            <td>Sub-Cutaneous</td>
+            <td>Left Upper Arm</td>
+            <td><input type="checkbox" class="vaccine-checkbox" /></td>
+          </tr>
+          <tr>
+            <th>PCV-Booster</th>
+            <td>9-12 Months</td>
+            <td>Intra-muscular</td>
+            <td>As Adviced</td>
+            <td><input type="checkbox" class="vaccine-checkbox" /></td>
+          </tr>
+        </table>
       </div>
     </section>
 
