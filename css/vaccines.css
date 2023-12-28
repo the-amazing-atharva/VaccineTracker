@@ -128,11 +128,13 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 .section-sixweeks,
-.section-tenweeks {
+.section-tenweeks,
+.section-fourteenweeks {
   padding: 9.6rem 0;
 }
 
-.section-sixweeks {
+.section-sixweeks,
+.section-fourteenweeks {
   background-color: #e6fcf5;
 }
 .step-number-info {
