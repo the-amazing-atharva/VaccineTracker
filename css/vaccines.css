@@ -73,7 +73,7 @@
   width: 90%;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -90,6 +90,7 @@
   margin: 10px 0px 40px;
   font-size: 17px;
   color: #fff;
+  line-height: 1.5;
 }
 
 .button {
